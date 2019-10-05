@@ -5,8 +5,12 @@
 ![Long time support rustc version](https://img.shields.io/badge/rustc-1.31%2B-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+Quotient Hash Tables - Eﬃciently Detecting Duplicates in Streaming Data.
 
 A Rust implementation of Quotient Hash Tables, a reasonably efficient approximate duplicate detection algorithm. [See paper here](https://arxiv.org/abs/1901.04358).
+
+The Quotient Hash Table (QHT) a new data structure for duplicate detection in unbounded streams. 
+QHTs stem from a corrected analysis of streaming quotient filters (SQFs), resulting in a 33\% reduction in memory usage for equal performance.
 
 ## How to use
 
